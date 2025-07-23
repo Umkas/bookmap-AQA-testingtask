@@ -1,11 +1,11 @@
 #!/bin/bash
 
-echo "🚀 Unit-tests rinning (Python)"
+echo "Unit-tests rinning (Python)"
 echo "-----------------------------"
 
 if python unit-tests.py; then
-  echo " All tests complite"
+  echo "All tests complite"
 else
-  echo " Error. Test falled"
+  echo "Error. One or some tests falled"
   exit 1
 fi
