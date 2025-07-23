@@ -44,10 +44,11 @@ Division `9 / 2 == 4.5`
  test_float_without_leading_zero() -Verifies `.56 == 0.56` and is `float`
 
 ## how to run
- install Pithin3
+ install Pythin3
  
  - option with Bash:
  chmod +x run.sh
+ 
  ./run.sh
 
  - option to run Python script directly:
